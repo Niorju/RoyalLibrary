@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI.NETCore</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.NETCore.Controllers.BookController.GetBook">
+            <summary>
+            Get Books
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.NETCore.Controllers.BookController.GetBookById(System.Int32)">
+            <summary>
+            Get Book by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.NETCore.Controllers.BookController.GetBookByCategory(System.String)">
+            <summary>
+            Get book by Category
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.NETCore.Controllers.BookController.PutBook(CrossCutting.DTO.BookDTO)">
+            <summary>
+            Update Book
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.NETCore.Controllers.BookController.PostBook(CrossCutting.DTO.BookDTO)">
+            <summary>
+            Insert Book
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

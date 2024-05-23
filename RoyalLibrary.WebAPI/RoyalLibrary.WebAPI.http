@@ -1,0 +1,6 @@
+@RoyalLibrary.WebAPI_HostAddress = http://localhost:5117
+
+GET {{RoyalLibrary.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
